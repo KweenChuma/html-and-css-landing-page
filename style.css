@@ -185,13 +185,19 @@ nav ul li a {
 
 .section-1 {
     display: flex;
-    margin: 120px 150px;
-    justify-content: space-between;
+    margin: 120px 50px;
+    /* justify-content: space-between; */
+    gap: 30px;
     position: relative;
 }
 
 .sec-img img {
     width: 75%;
+    text-align: left;
+}
+
+.seg img {
+    text-align: right;
 }
 
 .sec-left h3 {
